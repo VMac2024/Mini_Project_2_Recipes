@@ -1,0 +1,107 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.NavBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(39, 156, 154);
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.NavBar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
+.NavBar ul li a {
+  padding: 1em;
+  color: inherit;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+}
+.NavBar ul li a.active {
+  font-weight: bold;
+}
+
+html,
+body {
+  padding-top: 80px;
+  width: 100%;
+  margin: 0;
+  background-color: rgb(30, 37, 36);
+  color: whitesmoke;
+}
+.StartImage {
+  width: 340px;
+}
+ul {
+  list-style-type: none;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  margin: -2 0;
+  background-color: rgb(39, 156, 154);
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 0;
+}
+.filterBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Filter {
+  padding: 1em;
+}
+
+#PageName {
+  font-size: 40px;
+  font-weight: 900;
+}
