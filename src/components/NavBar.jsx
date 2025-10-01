@@ -21,7 +21,7 @@ function NavBar() {
         </li>
 
         <li>
-          <NavLink to="/About">AboutUs</NavLink>
+          <NavLink to="/About">About Us</NavLink>
         </li>
       </ul>{" "}
     </nav>
