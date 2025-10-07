@@ -58,7 +58,7 @@ export default function RecipeGrid() {
         <div className="Filter">
           <label>Filter by Cuisine Type:</label>
           <select id="filterCuisine" value={cuisine} onChange={(e) => dispatch({ type: "set_cuisine", payload: e.target.value })}>
-            <option value="All">All</option>
+            <option value="all">All</option>
             <option value="Asian">Asian</option>
             <option value="American">American</option>
             <option value="Italian">Italian</option>
@@ -68,7 +68,7 @@ export default function RecipeGrid() {
         <div className="Filter">
           <label>Filter by Course:</label>
           <select id="filterCourse" value={course} onChange={(e) => dispatch({ type: "set_course", payload: e.target.value })}>
-            <option value="All">All</option>
+            <option value="all">All</option>
             <option value="Main Course">Mains</option>
             <option value="Breakfast">Breakfast</option>
             <option value="Snacks and Sandwiches">Snacks</option>

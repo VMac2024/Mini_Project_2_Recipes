@@ -8,12 +8,7 @@ A recipe project built using **HTML**, **CSS** and **JavaScript**. Powered by **
 
 2. cd Mini_Project_2_Recipes
 
-# Install Dependencies:
-
-1. Ensure you have Node.js installed, then run:
-   npm install
-
-2. Start the server - run:
+3. Start the server - run:
    npm run dev
 
 # View site in browser:
@@ -24,5 +19,5 @@ A recipe project built using **HTML**, **CSS** and **JavaScript**. Powered by **
 
 1. HTML5
 2. CSS3
-3. JavaScript (ES6+)
+3. React
 4. Vite (for bundling and development server)
